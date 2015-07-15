@@ -1,0 +1,50 @@
+body {
+  /*padding: 50px;*/
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.home-page{
+    background: url(../images/HomePage.jpg) no-repeat center center;
+    background-size: cover;
+    /*height:auto;*/
+    height:666px;
+    padding-top:220px;
+    padding-left:466px;
+}
+
+
+.quote{
+    font-family: sans-serif;
+    color: white;
+    padding-left: 83px;
+}
+
+
+.msg{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.seperation-space{
+
+    margin-right:10px;
+    margin-left:80px;
+}
+
+.btn .getwet{
+
+    background: transparent;
+    color: #F2F2F2;
+
+     /*CSS Transition */
+    -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+
+}

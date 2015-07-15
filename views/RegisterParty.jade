@@ -1,0 +1,30 @@
+//
+   Created by zakirelahi on 14/07/15.
+
+#registerModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel', aria-hidden='true')
+    .modal-dialog
+        .modal-content
+            .modal-header
+                button.close(type='button', data-dismiss='modal', aria-hidden='true')
+                    | &times;
+                h4#myModalLabel.modal-title
+                    | To-Night Registration
+            .modal-body
+                form(accept-charset="UTF-8", action="/registerdetails", method="post", id="registration", name="registration")
+                    .row.top-buffer
+                        .col-lg-6.form-group
+                            input(type="text", placeholder="Nick Name", required="required", name="name", class="form-control")
+                        .col-lg-6.form-group
+                            input(type="text", placeholder="Purpose", required="required", name="purpose", class="form-control")
+                        .col-lg-6.form-group
+                            input(type="text", placeholder="Age", required="required", name="age", class="form-control")
+                        .col-lg-6.form-group
+                            input(type="text", placeholder="Sex", required="required", name="sex", class="form-control")
+                        .col-lg-6.form-group
+                            input(type="text", placeholder="Inrested In", required="required", name="intrestedIn", class="form-control")
+                        .col-lg-6.form-group
+                            input(type="text", placeholder="Phone Number", required="required", name="phoneNo", class="form-control")
+                        .col-lg-6.form-group
+                            input(type="text", placeholder="About Me", required="required", name="aboutYou", class="form-control")
+                        .clearfix
+                        button.btn.btn-primary.submit-button.form-group.center-block(type='submit') submit
